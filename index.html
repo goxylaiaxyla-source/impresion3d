@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="es-PE">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#05070a" />
+    <meta
+      name="description"
+      content="Impresiones 3D a medida: piezas personalizadas, soportes NFC con QR y prototipos. Cuéntame tu idea por WhatsApp."
+    />
+    <title>Impresiones 3D en Perú | Si puedes imaginarlo, puedo crearlo</title>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="#inicio" aria-label="Impresiones 3D, inicio">
+        <svg viewBox="0 0 34 34" fill="none" aria-hidden="true">
+          <path d="M7 25h20M10 22V10h14v12M14 10V6h6v4M13 14h8m-8 4h8m-8 4h8" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M6 28h22" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" />
+        </svg>
+        <span>IMPRESIONES <b>3D</b></span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        aria-label="Abrir menú"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Navegación principal">
+        <a href="#servicios">Qué puedo hacer</a>
+        <a href="#ideas">Ideas</a>
+        <a href="#nfc">NFC + QR</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main id="contenido">
+      <section class="hero" id="inicio">
+        <canvas class="galaxy-canvas" data-galaxy aria-hidden="true"></canvas>
+        <div class="hero-fade" aria-hidden="true"></div>
+        <div class="hero-inner page-shell" data-reveal>
+          <p class="eyebrow"><span class="status-dot"></span> Ideas que toman forma en Perú</p>
+          <h1>Si puedes imaginarlo, <span>puedo crearlo.</span></h1>
+          <p class="hero-description">
+            Diseño e impresión 3D a medida. Desde una pieza útil para tu negocio
+            hasta ese objeto que todavía no encuentras en ninguna tienda.
+          </p>
+          <div class="hero-actions">
+            <a
+              class="button button-main"
+              href="https://wa.me/51919161560?text=Hola%2C%20vi%20tu%20pagina%20y%20quiero%20consultar%20por%20una%20idea%20de%20impresion%203D."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M20 11.6a7.8 7.8 0 0 1-11.6 6.8L4 20l1.6-4.2A7.8 7.8 0 1 1 20 11.6Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" />
+                <path d="M9 8.5c.3-.5.6-.5.9-.5h.3c.2 0 .4 0 .5.4l.7 1.7c.1.3 0 .5-.2.7l-.5.6c-.2.2-.2.4 0 .7.6 1 1.4 1.7 2.4 2.2.3.2.5.1.7-.1l.7-.8c.2-.2.4-.2.7-.1l1.5.7c.3.1.4.3.4.5 0 .4-.2 1.2-.7 1.6-.5.4-1.1.7-2 .5-1-.2-2.2-.7-3.4-1.7a9.3 9.3 0 0 1-2.5-3.1c-.7-1.4-.1-2.6.5-3.3Z" fill="currentColor" />
+              </svg>
+              Escríbeme por WhatsApp
+              <span aria-hidden="true">↗</span>
+            </a>
+            <a class="button button-outline" href="#ideas">Explorar ideas <span aria-hidden="true">↓</span></a>
+          </div>
+          <p class="hero-footnote"><span></span> Cuéntame qué tienes en mente. Cotizamos antes de empezar.</p>
+        </div>
+        <span class="hero-caption" aria-hidden="true">DISEÑO · DETALLE · IMPRESIÓN 3D</span>
+      </section>
+
+      <section class="services section-space" id="servicios">
+        <div class="page-shell">
+          <div class="section-intro" data-reveal>
+            <p class="eyebrow"><span class="eyebrow-number">01</span> Posibilidades para tu proyecto</p>
+            <h2>¿Qué te gustaría <span>crear?</span></h2>
+            <p>Son ideas para conversar, no una lista de productos ni precios fijos. Cada solicitud se revisa según tu diseño y las posibilidades de fabricación.</p>
+          </div>
+
+          <ul class="service-list">
+            <li data-reveal>
+              <span class="service-number">01</span>
+              <h3>Soportes NFC con QR</h3>
+              <p>Piezas para que tus clientes encuentren el enlace de tu negocio con un toque NFC o escaneando un código QR.</p>
+              <span class="service-arrow" aria-hidden="true">↗</span>
+            </li>
+            <li data-reveal>
+              <span class="service-number">02</span>
+              <h3>Accesorios para tu espacio</h3>
+              <p>Soportes para objetos cotidianos, mostradores, botellas y artículos personalizados según tus medidas.</p>
+              <span class="service-arrow" aria-hidden="true">↗</span>
+            </li>
+            <li data-reveal>
+              <span class="service-number">03</span>
+              <h3>Piezas decorativas</h3>
+              <p>Letreros, figuras, regalos y objetos con formas, tamaños y colores por consultar.</p>
+              <span class="service-arrow" aria-hidden="true">↗</span>
+            </li>
+            <li data-reveal>
+              <span class="service-number">04</span>
+              <h3>Ruletas, moldes y prototipos</h3>
+              <p>Propuestas especiales que podemos revisar contigo antes de confirmar si se pueden fabricar.</p>
+              <span class="service-arrow" aria-hidden="true">↗</span>
+            </li>
+            <li data-reveal>
+              <span class="service-number">05</span>
+              <h3>Diseño y modelado 3D</h3>
+              <p>Un dibujo, una foto o una descripción pueden servir para comenzar a estudiar la forma de una pieza.</p>
+              <span class="service-arrow" aria-hidden="true">↗</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="ideas section-space" id="ideas">
+        <div class="page-shell">
+          <div class="section-intro" data-reveal>
+            <p class="eyebrow"><span class="eyebrow-number">02</span> Un punto de partida</p>
+            <h2>Una idea puede empezar <span>así.</span></h2>
+            <p>Estas ilustraciones son ejemplos conceptuales dibujados para esta página: muestran tipos de ideas, no fotos de ventas ni encargos terminados.</p>
+          </div>
+
+          <div class="idea-grid">
+            <article class="idea-card" data-reveal>
+              <div class="idea-art art-terminal">
+                <span class="art-label">IDEA · 01</span>
+                <svg viewBox="0 0 360 260" role="img" aria-labelledby="nfc-art-title">
+                  <title id="nfc-art-title">Ilustración conceptual de un soporte de mesa con un símbolo NFC</title>
+                  <path d="m85 177 95-55 94 55-94 55-94-55Z" fill="#16382C" stroke="#61DCA1" stroke-width="2" />
+                  <path d="m105 167 75-44 75 44v28l-75 44-75-44v-28Z" fill="#10251C" stroke="#80E7B5" stroke-width="2" />
+                  <path d="m105 167 75 44 75-44m-75 44v28" fill="none" stroke="#80E7B5" stroke-width="2" />
+                  <path d="M132 167v-63h97v63" fill="#17261D" stroke="#F2B84B" stroke-width="3" />
+                  <rect x="144" y="115" width="73" height="41" rx="4" fill="#0B1410" stroke="#B6FF6A" stroke-width="2" />
+                  <path d="M161 128c5 4 5 10 0 15m10-21c9 7 9 19 0 26m10-33c13 10 13 29 0 40" fill="none" stroke="#B6FF6A" stroke-linecap="round" stroke-width="3" />
+                  <circle cx="180" cy="219" r="3" fill="#F2B84B" />
+                </svg>
+              </div>
+              <div class="idea-copy">
+                <p class="idea-kind">NFC · QR · ACCESORIOS</p>
+                <h3>Un soporte, una forma de conectar.</h3>
+              </div>
+            </article>
+
+            <article class="idea-card" data-reveal>
+              <div class="idea-art art-wheel">
+                <span class="art-label">IDEA · 02</span>
+                <svg viewBox="0 0 360 260" role="img" aria-labelledby="wheel-art-title">
+                  <title id="wheel-art-title">Ilustración conceptual de una ruleta personalizada de escritorio</title>
+                  <ellipse cx="180" cy="225" rx="89" ry="15" fill="#030605" fill-opacity=".72" />
+                  <path d="m124 194 112 0 19 31H105l19-31Z" fill="#1B2F24" stroke="#5FD69A" stroke-width="2" />
+                  <path d="M178 87v112" stroke="#F2B84B" stroke-width="6" stroke-linecap="round" />
+                  <circle cx="180" cy="109" r="73" fill="#102219" stroke="#B6FF6A" stroke-width="3" />
+                  <path d="M180 109V36a73 73 0 0 1 63 36l-63 37Z" fill="#244932" stroke="#F2B84B" stroke-width="2" />
+                  <path d="m180 109 63-37a73 73 0 0 1 0 74l-63-37Z" fill="#142D21" stroke="#B6FF6A" stroke-width="2" />
+                  <path d="m180 109 63 37a73 73 0 0 1-63 36v-73Z" fill="#294431" stroke="#F2B84B" stroke-width="2" />
+                  <path d="M180 109v73a73 73 0 0 1-63-36l63-37Z" fill="#142D21" stroke="#B6FF6A" stroke-width="2" />
+                  <path d="m180 109-63 37a73 73 0 0 1 0-74l63 37Z" fill="#244932" stroke="#F2B84B" stroke-width="2" />
+                  <path d="m180 109-63-37a73 73 0 0 1 63-36v73Z" fill="#183522" stroke="#B6FF6A" stroke-width="2" />
+                  <circle cx="180" cy="109" r="13" fill="#F2B84B" stroke="#080B08" stroke-width="3" />
+                  <path d="m170 29 10-17 10 17h-20Z" fill="#F2B84B" />
+                </svg>
+              </div>
+              <div class="idea-copy">
+                <p class="idea-kind">DISEÑO A MEDIDA · PROTOTIPOS</p>
+                <h3>Una idea para mostrar sobre la mesa.</h3>
+              </div>
+            </article>
+
+            <article class="idea-card" data-reveal>
+              <div class="idea-art art-object">
+                <span class="art-label">IDEA · 03</span>
+                <svg viewBox="0 0 360 260" role="img" aria-labelledby="object-art-title">
+                  <title id="object-art-title">Ilustración conceptual de una pieza tridimensional geométrica</title>
+                  <ellipse cx="181" cy="221" rx="69" ry="12" fill="#030605" fill-opacity=".7" />
+                  <path d="m180 48 62 35v74l-62 36-62-36V83l62-35Z" fill="#13261C" stroke="#B6FF6A" stroke-width="2.5" />
+                  <path d="m180 48 0 71 62-36m-62 36-62-36m62 36v74" fill="none" stroke="#F2B84B" stroke-width="2.5" />
+                  <path d="m154 96 26-15 26 15v31l-26 16-26-16V96Z" fill="#214330" stroke="#74DDA6" stroke-width="2" />
+                  <path d="m154 96 26 16 26-16m-26 16v31" fill="none" stroke="#B6FF6A" stroke-width="2" />
+                  <circle cx="115" cy="91" r="4" fill="#F2B84B" />
+                  <circle cx="247" cy="131" r="4" fill="#B6FF6A" />
+                  <path d="M114 65v12m-6-6h12m103 91v10m-5-5h10" stroke="#F2B84B" stroke-linecap="round" stroke-width="2" />
+                </svg>
+              </div>
+              <div class="idea-copy">
+                <p class="idea-kind">PIEZA PERSONALIZADA</p>
+                <h3>Un objeto pensado alrededor de tu idea.</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="nfc-section section-space" id="nfc">
+        <div class="page-shell nfc-layout">
+          <div class="nfc-copy" data-reveal>
+            <p class="eyebrow"><span class="eyebrow-number">03</span> Para compartir al instante</p>
+            <h2>Un toque NFC.<br /><span>O un QR.</span></h2>
+            <p>Un soporte puede llevar un enlace a tu WhatsApp, tus redes o la información de tu negocio. El diseño y la compatibilidad se revisan contigo antes de fabricar.</p>
+            <ul class="nfc-points">
+              <li>Tu enlace en un soporte hecho a tu gusto.</li>
+              <li>Una opción NFC y otra con código QR.</li>
+              <li>Tú eliges qué página abrirá el teléfono.</li>
+            </ul>
+            <a
+              class="text-action"
+              href="https://wa.me/51919161560?text=Hola%2C%20quisiera%20consultar%20por%20un%20soporte%20personalizado%20con%20NFC%20y%20QR."
+              target="_blank"
+              rel="noopener noreferrer"
+            >Consultar mi idea <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="tap-visual" data-reveal aria-label="Ilustración decorativa que representa una etiqueta NFC y un código QR">
+            <div class="tap-rings" aria-hidden="true"></div>
+            <div class="tap-chip" aria-hidden="true">
+              <svg viewBox="0 0 100 100" fill="none">
+                <path d="M32 37c7 7 7 19 0 26m12-38c14 14 14 36 0 50m12-62c21 21 21 53 0 74" stroke="currentColor" stroke-linecap="round" stroke-width="4" />
+                <rect x="65" y="64" width="20" height="20" rx="2" stroke="#F2B84B" stroke-width="3" />
+                <path d="M69 68h5v5h-5v-5Zm8 0h4v4h-4v-4Zm-8 8h4v4h-4v-4Zm8 0h4v4h-4v-4Z" fill="#F2B84B" />
+              </svg>
+            </div>
+            <span class="tap-label">ACERCA · ESCANEA · CONECTA</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="process section-space">
+        <div class="page-shell">
+          <div class="section-intro" data-reveal>
+            <p class="eyebrow"><span class="eyebrow-number">04</span> Antes de imprimir</p>
+            <h2>Tu idea, <span>paso a paso.</span></h2>
+          </div>
+          <ol class="steps-list">
+            <li data-reveal><span>01</span><div><h3>Cuéntame qué buscas.</h3><p>Envíame la idea o referencia por WhatsApp. No necesitas llenar un formulario en esta página.</p></div></li>
+            <li data-reveal><span>02</span><div><h3>Revisamos si se puede fabricar.</h3><p>Estudiamos el diseño, los materiales y cualquier detalle que pueda cambiar el resultado.</p></div></li>
+            <li data-reveal><span>03</span><div><h3>Confirmamos precio y condiciones.</h3><p>Antes de producir, acuerdas por escrito el precio total, el diseño, el plazo estimado y la forma de entrega.</p></div></li>
+            <li data-reveal><span>04</span><div><h3>Empezamos con tu aprobación.</h3><p>No se inicia una producción personalizada ni se cobra desde esta página.</p></div></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="contact-section section-space" id="contacto">
+        <div class="contact-inner page-shell" data-reveal>
+          <p class="eyebrow"><span class="eyebrow-number">05</span> Hablemos de tu idea</p>
+          <h2>¿Qué te gustaría <span>hacer realidad?</span></h2>
+          <p>Una consulta no te obliga a comprar. Te explico precio y condiciones antes de confirmar cualquier trabajo.</p>
+          <a class="contact-phone" href="tel:+51919161560">+51 919 161 560 <span>· Perú</span></a>
+          <div class="contact-actions">
+            <a
+              class="button button-main"
+              href="https://wa.me/51919161560?text=Hola%2C%20vi%20tu%20pagina%20y%20quiero%20consultar%20por%20una%20idea%20de%20impresion%203D."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M20 11.6a7.8 7.8 0 0 1-11.6 6.8L4 20l1.6-4.2A7.8 7.8 0 1 1 20 11.6Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" />
+                <path d="M9 8.5c.3-.5.6-.5.9-.5h.3c.2 0 .4 0 .5.4l.7 1.7c.1.3 0 .5-.2.7l-.5.6c-.2.2-.2.4 0 .7.6 1 1.4 1.7 2.4 2.2.3.2.5.1.7-.1l.7-.8c.2-.2.4-.2.7-.1l1.5.7c.3.1.4.3.4.5 0 .4-.2 1.2-.7 1.6-.5.4-1.1.7-2 .5-1-.2-2.2-.7-3.4-1.7a9.3 9.3 0 0 1-2.5-3.1c-.7-1.4-.1-2.6.5-3.3Z" fill="currentColor" />
+              </svg>
+              Escribir por WhatsApp <span aria-hidden="true">↗</span>
+            </a>
+            <a class="button button-outline" href="https://www.tiktok.com/@aynose.quesito" target="_blank" rel="noopener noreferrer">
+              Ver mi TikTok <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <div class="share-tools">
+            <button class="share-button" type="button" data-share>
+              <span aria-hidden="true">↗</span> Compartir perfil
+            </button>
+            <button class="share-button" type="button" data-copy>
+              <span aria-hidden="true">⌁</span> Copiar enlace para QR / NFC
+            </button>
+            <p class="share-status" data-share-status role="status" aria-live="polite"></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page-shell footer-main">
+        <a class="wordmark footer-wordmark" href="#inicio" aria-label="Impresiones 3D, volver al inicio">
+          <svg viewBox="0 0 34 34" fill="none" aria-hidden="true">
+            <path d="M7 25h20M10 22V10h14v12M14 10V6h6v4M13 14h8m-8 4h8m-8 4h8" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M6 28h22" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" />
+          </svg>
+          <span>IMPRESIONES <b>3D</b></span>
+        </a>
+        <a class="social-link" href="https://www.tiktok.com/@aynose.quesito" target="_blank" rel="noopener noreferrer">
+          <span class="social-icon" aria-hidden="true">♪</span> TikTok <b>@aynose.quesito</b>
+        </a>
+        <a class="social-link" href="https://www.facebook.com/sharer/sharer.php" target="_blank" rel="noopener noreferrer" data-facebook-share>
+          <span class="social-icon social-facebook" aria-hidden="true">f</span> Compartir en Facebook <span aria-hidden="true">↗</span>
+        </a>
+        <span class="footer-caption">Ideas a medida · Perú</span>
+      </div>
+      <div class="page-shell footer-bottom">
+        <p>© <span data-year></span> Impresiones 3D</p>
+        <nav class="legal-links" aria-label="Avisos legales y preferencias">
+          <a href="privacidad.html">Aviso de privacidad</a>
+          <a href="terminos.html">Términos</a>
+          <a href="reembolsos.html">Cambios y reembolsos</a>
+          <a href="cookies.html">Aviso de cookies</a>
+          <button type="button" data-open-cookies>Preferencias de cookies</button>
+          <a
+            href="https://wa.me/51919161560?text=Hola%2C%20solicito%20que%20no%20me%20envien%20mas%20mensajes%20promocionales."
+            target="_blank"
+            rel="noopener noreferrer"
+          >Pedir que no me envíen promociones</a>
+          <a
+            href="https://wa.me/51919161560?text=Hola%2C%20quiero%20consultar%20como%20ejercer%20mis%20derechos%20ARCO%20sobre%20mis%20datos%20personales."
+            target="_blank"
+            rel="noopener noreferrer"
+          >Eliminar mis datos (ARCO)</a>
+        </nav>
+      </div>
+      <p class="legal-owner page-shell">
+        Identificación comercial proporcionada: “Impresiones 3D”. El nombre legal y
+        RUC del responsable deben confirmarse con el titular antes de publicar este sitio.
+        Contacto: <a href="tel:+51919161560">+51 919 161 560</a>.
+      </p>
+    </footer>
+
+    <aside class="cookie-notice" data-cookie-notice role="region" aria-label="Aviso de cookies" hidden>
+      <div class="cookie-copy">
+        <p class="cookie-title"><span aria-hidden="true">◉</span> Sobre las cookies</p>
+        <p>
+          Esta página no instala cookies opcionales ni rastreadores. No hay
+          analítica, anuncios ni casillas premarcadas. El aviso recuerda tu elección
+          sólo en esta pestaña, usando el almacenamiento de sesión del navegador;
+          puedes cerrar el aviso o rechazar las cookies opcionales.
+          <a href="cookies.html">Leer el aviso de cookies</a>.
+        </p>
+      </div>
+      <div class="cookie-actions">
+        <button type="button" data-cookie-accept>Aceptar y cerrar</button>
+        <button class="cookie-reject" type="button" data-cookie-reject>Rechazar cookies</button>
+      </div>
+    </aside>
+
+    <a
+      class="whatsapp-float"
+      href="https://wa.me/51919161560?text=Hola%2C%20vi%20tu%20pagina%20y%20quiero%20consultar%20por%20una%20idea%20de%20impresion%203D."
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Consultar por WhatsApp al +51 919 161 560"
+    >
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M20 11.6a7.8 7.8 0 0 1-11.6 6.8L4 20l1.6-4.2A7.8 7.8 0 1 1 20 11.6Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" />
+        <path d="M9 8.5c.3-.5.6-.5.9-.5h.3c.2 0 .4 0 .5.4l.7 1.7c.1.3 0 .5-.2.7l-.5.6c-.2.2-.2.4 0 .7.6 1 1.4 1.7 2.4 2.2.3.2.5.1.7-.1l.7-.8c.2-.2.4-.2.7-.1l1.5.7c.3.1.4.3.4.5 0 .4-.2 1.2-.7 1.6-.5.4-1.1.7-2 .5-1-.2-2.2-.7-3.4-1.7a9.3 9.3 0 0 1-2.5-3.1c-.7-1.4-.1-2.6.5-3.3Z" fill="currentColor" />
+      </svg>
+    </a>
+  </body>
+</html>
